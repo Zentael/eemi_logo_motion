@@ -48,7 +48,7 @@ export default function Home() {
           content.style.opacity = "1";
           content.style.marginTop = "0";
         }, 1000)
-      }, 3500);
+      }, 3200);
     }, 1000);
   }
   return (
