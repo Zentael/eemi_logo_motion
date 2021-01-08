@@ -12,6 +12,7 @@ export default function Home() {
     const ball = document.getElementById("eemi_ball");
     const gif = document.getElementById("eemi_gif");
     const title = document.getElementById("title");
+    const content = document.getElementById("content");
     ball.style.animation = "none";
     title.style.opacity = "0"
     setTimeout(function(){
@@ -22,7 +23,32 @@ export default function Home() {
       const gif_img = document.createElement('img');
       gif_img.setAttribute("src", "/eemi_logo.gif");
       gif.appendChild(gif_img);
-
+      setTimeout(function(){
+        gif_img.setAttribute("src", "/eemi_logo.png");
+        gif_img.style.height = "540px";
+        gif_img.style.width = "960px";
+        gif_img.animate([
+          // keyframes
+          {
+            height: "540px",
+            width: "960px",
+          },
+          {
+            height: "145px",
+            width: "240px",
+          }
+        ], {
+          // timing options
+          duration: 1000,
+          iterations: 1,
+          fill: "forwards"
+        });
+        content.style.display = "block";
+        setTimeout(function(){
+          content.style.opacity = "1";
+          content.style.marginTop = "0";
+        }, 1000)
+      }, 4000);
     }, 1000);
   }
   return (
@@ -41,6 +67,24 @@ export default function Home() {
         <h1 id="title">
           Pour découvrir la première école digitale, commencez ici
         </h1>
+        <article id="content">
+          
+<h3>Qu'est-ce que le Lorem Ipsum?</h3>
+
+Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+Pourquoi l'utiliser?
+
+On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+
+<h3>D'où vient-il?</h3>
+
+Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.
+
+L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).
+<h3>Où puis-je m'en procurer?</h3>
+
+Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.
+        </article>
       </main>
       <style jsx>{`
         .container {
@@ -106,6 +150,25 @@ export default function Home() {
         #eemi_gif > img{
           height: 540px;
           width: calc(100%-16px);
+        }
+
+        @keyframes reduceToCorner {
+          from {
+            height: 540px;
+            width: 960px;
+          }
+
+          to {
+            height: 270px;
+            width: 480px;
+          }
+        }
+
+        #content{
+          display:none;
+          margin-top: 20px;
+          transition: 1s;
+          opacity: 0; 
         }
 
       `}</style>
