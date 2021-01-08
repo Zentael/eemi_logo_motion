@@ -40,17 +40,18 @@ export default function Home() {
           background-color: #15163A;
           border-radius: 50%;
           margin: 0 auto;
-          align-items: bottom;
+          align-self:end;
 
-          animation-duration: 3s;
+          animation-duration: 0.5s;
           animation-name: bounce;
           animation-iteration-count: infinite;
           animation-direction: alternate;
+          animation-timing-function: cubic-bezier(0.8, 0.4, 0.8, 0.4);
         }
 
         @keyframes bounce {
           from {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
           }
         
           to {
