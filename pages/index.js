@@ -48,7 +48,7 @@ export default function Home() {
           content.style.opacity = "1";
           content.style.marginTop = "0";
         }, 1000)
-      }, 4000);
+      }, 3950);
     }, 1000);
   }
   return (
@@ -88,7 +88,6 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
       </main>
       <style jsx>{`
         .container {
-          
           padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
@@ -97,7 +96,6 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
         }
 
         main {
-          
           margion: 0 auto;
         }
 
@@ -108,7 +106,8 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
         #eemi_ball_container{
           margin-top:80px;
           height: 45px;
-          display:flex;
+          
+          position:relative;
         }
 
         #eemi_ball {
@@ -117,7 +116,9 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
           background-color: #15163A;
           border-radius: 50%;
           margin: 0 auto;
-          align-self:end;
+          position: absolute;
+          left: calc(50% - 15px);
+          bottom:0;
 
           animation-duration: 0.5s;
           animation-name: bounce;
@@ -128,28 +129,25 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
 
         @keyframes bounce {
           0% {
-            margin-bottom: 0;
+            bottom: 0;
           }
         
           50% {
-            margin-bottom: 15px;
+            bottom: 15px;
           }
 
           100% {
-            margin-bottom: 0;
+            bottom: 0;
           }
         }
 
         #eemi_gif{
           margin-top:0;
-          margin-left:16px;
-          
           display:none;
         }
 
         #eemi_gif > img{
           height: 540px;
-          width: calc(100%-16px);
         }
 
         @keyframes reduceToCorner {
@@ -184,6 +182,7 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
             
               background-color: #000;
               color: #fff;
+              overflow: hidden;
             
         }
 
