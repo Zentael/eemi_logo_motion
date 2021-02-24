@@ -27,27 +27,32 @@ export default function Home() {
         gif_img.setAttribute("src", "/eemi_logo.png");
         gif_img.style.height = "540px";
         gif_img.style.width = "960px";
-        gif_img.animate([
-          // keyframes
-          {
-            height: "540px",
-            width: "960px",
-          },
-          {
-            height: "145px",
-            width: "240px",
-          }
-        ], {
-          // timing options
-          duration: 1000,
-          iterations: 1,
-          fill: "forwards"
-        });
+        gif_img.style.margin = "0 auto";
+        gif_img.style.display = "block";
         content.style.display = "block";
         setTimeout(function(){
-          content.style.opacity = "1";
-          content.style.marginTop = "0";
-        }, 1000)
+          gif_img.animate([
+            // keyframes
+            {
+              height: "540px",
+              width: "960px",
+            },
+            {
+              height: "145px",
+              width: "240px",
+            }
+          ], {
+            // timing options
+            duration: 1000,
+            iterations: 1,
+            fill: "forwards",
+            easing: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+          });
+          setTimeout(function(){
+            content.style.opacity = "1";
+            content.style.marginTop = "0";  
+          }, 1000)
+        }, 1000)  
       }, 3200);
     }, 1000);
   }
