@@ -76,7 +76,7 @@ export default function Home() {
           
 <h3>Qu'est-ce que le Lorem Ipsum?</h3>
 
-<div id="tooltip"><a href="/" target="_blank">Détails de la filière CTO</a>
+<div id="tooltip"><a href="/" target="_blank" id="cto">Détails de la filière CTO</a>
     <div id="top">
         <h3>Devenez pro du développement</h3>
         <p>Cliquez</p>
@@ -86,7 +86,7 @@ export default function Home() {
 
 <br></br>
 
-<div id="tooltip"> <a href="/" target="_blank">Détails de la filière CDO</a>
+<div id="tooltip"> <a href="/" target="_blank" id="cdo">Détails de la filière CDO</a>
     <div id="top">
         <h3>Devenez pro du design</h3>
         <p>Cliquez</p>
@@ -96,7 +96,7 @@ export default function Home() {
 
 <br></br>
 
-<div id="tooltip"><a href="/" target="_blank">Détails de la filière CEO</a>
+<div id="tooltip"><a href="/" target="_blank" id="ceo">Détails de la filière CEO</a>
     <div id="top">
         <h3>Devenez pro du marketing</h3>
         <p>Cliquez</p>
@@ -252,6 +252,18 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
           transform:translate(-50%,-50%) rotate(45deg);
           background-color:#EEEEEE;
           border:1px solid #000000;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+      }
+
+      #cto {
+        color: #ffb700;
+      }
+
+      #cdo {
+        color: #e643ae;
+      }
+
+      #ceo {
+        color: #484ce5;
       }
       `}</style>
 
