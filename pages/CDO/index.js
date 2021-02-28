@@ -74,10 +74,33 @@ export default function Home() {
         </h1>
         <article id="content">
           
-<h3>Qu'est-ce que la filière CDO ?</h3>
-Le CDO (Chief Design Officer) met en place une approche créative, innovante et centrée sur l’utilisateur pour concevoir de nouveaux produits et solutions. Le programme CDO et Product Designer a pour objectif de former des profils hybrides, dotés d’une solide compréhension des enjeux techniques et capables d’évoluer dans des environnements complexes et évolutifs. La formation permet d’acquérir les compétences techniques mais aussi managériales pour piloter et mener à bien des projets stratégiques et répondre aux enjeux de transformation dans un monde numérique.
+<h3 id="cdo">Qu'est-ce que la filière CDO ?</h3>
+Le CDO (Chief Design Officer) met en place une approche créative, innovante et centrée sur l’utilisateur pour concevoir 
+de nouveaux produits et solutions. Le programme <b id="cdo">CDO et Product Designer</b> a pour objectif de former des 
+<b id="cdo"> profils hybrides</b>, dotés d’une solide <b id="cdo">compréhension des enjeux techniques</b> et capables d’évoluer dans des 
+<b id="cdo"> environnements complexes</b> et <b id="cdo">évolutifs</b>. 
+La formation permet d’acquérir les compétences techniques mais aussi <b id="cdo">managériales</b> pour piloter et mener à bien des 
+projets stratégiques et répondre aux enjeux de transformation dans un monde numérique.
+<br></br><br></br>
+<h3 id="cdo">Infos pratiques</h3>
+• <b id="cdo">Durée : </b>24 mois <br></br>
 
+• <b id="cdo">Niveau d’admission :</b> Bac +3 en web design, multimédia, communication visuelle<br></br>
 
+• <b id="cdo">450 heures de formation par an</b><br></br>
+
+• <b id="cdo">Formation en alternance :</b> 1 semaine école / 3 semaines entreprise<br></br>
+
+• <b id="cdo">Début des cours :</b> Septembre / Octobre<br></br><br></br>
+
+Cycle validé par la certification professionnelle de niveau 7 « <b id="cdo">Manager de projets innovants</b> », 
+code NSF 310m. Enregistrée au RNCP par arrêté du 07/04/2017 publié au J.O. du 21/04/2017 
+sous l’autorité et délivré par EIMP. Certification accessible via le dispositif VAE.
+<br></br><br></br>
+ <h3 id="cdo">S'inscrire</h3>
+ Pour prendre contact avec nous, poser des questions, et pourquoi pas vous inscrire, n'hésitez pas à :<br></br>
+ • Nous appeler au <b id="cdo">01.80.50.91.48</b> <br></br>
+ • Nous envoyer un mail à <a href="mailto:admission@eemi.com" target="_blank"><b id="cdo">admission@eemi.com</b></a>
 
 
     </article>

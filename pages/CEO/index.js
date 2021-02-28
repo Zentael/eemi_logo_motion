@@ -74,10 +74,35 @@ export default function Home() {
         </h1>
         <article id="content">
           
-<h3>Qu'est-ce que la filière CEO ?</h3>
-Le programme CEO et Expertise Digitale s’adresse à des étudiants issus de formations généralistes et recherchant un bagage technique dans les 3 domaines clés du digital : E-business, Interactive design et Web development. L’objectif est de former des profils hybrides, maîtrisant technologies et business.
+<h3 id="ceo">Qu'est-ce que la filière CEO ?</h3>
+Le programme <b id="ceo">CEO et Expertise Digitale</b> s’adresse à des étudiants issus de formations généralistes et recherchant 
+un bagage technique dans les 3 domaines clés du digital : <b id="ceo">E-business</b>, <b id="ceo">Interactive design</b> et 
+<b id="ceo"> Web development</b>. L’objectif est de former des profils hybrides, maîtrisant technologies et business. <br></br>
 
-Grâce aux compétences délivrées, l’étudiant acquiert une connaissance de l’entreprise et de sa structure permettant d’actionner les leviers nécessaires à la transformation digitale. Le programme CEO et Exertise Digitale s’adresse également aux étudiants porteurs d’un projet de création d’entreprise.
+Grâce aux compétences délivrées, l’étudiant acquiert une connaissance de l’entreprise et de sa structure permettant d’actionner 
+les leviers nécessaires à la transformation digitale. Le programme CEO et Exertise Digitale s’adresse également aux étudiants porteurs 
+d’un projet de <b id="ceo">création d’entreprise</b>
+<br></br><br></br>
+<h3 id="ceo">Infos pratiques</h3>
+• <b id="ceo">Durée : </b>24 mois <br></br>
+
+• <b id="ceo">Niveau d’admission :</b> Bac +3 <br></br>
+
+• <b id="ceo">450 heures de formation par an</b><br></br>
+
+• <b id="ceo">Formation en alternance :</b> 1 semaine école / 3 semaines entreprise<br></br>
+
+• <b id="ceo">Début des cours :</b> Septembre / Octobre<br></br><br></br>
+
+Cycle validé par la certification professionnelle de niveau 7 « <b id="ceo">Manager de projets innovants</b> », 
+code NSF 310m. Enregistrée au RNCP par arrêté du 07/04/2017 publié au J.O. du 21/04/2017 
+sous l’autorité et délivré par EIMP. Certification accessible via le dispositif VAE.
+<br></br><br></br>
+ <h3 id="ceo">S'inscrire</h3>
+ Pour prendre contact avec nous, poser des questions, et pourquoi pas vous inscrire, n'hésitez pas à :<br></br>
+ • Nous appeler au <b id="ceo">01.80.50.91.48</b> <br></br>
+ • Nous envoyer un mail à <a href="mailto:admission@eemi.com" target="_blank"><b id="ceo">admission@eemi.com</b></a>
+
 
  </article>
       </main>

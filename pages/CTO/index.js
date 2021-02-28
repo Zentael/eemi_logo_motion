@@ -74,13 +74,36 @@ export default function Home() {
         </h1>
         <article id="content">
           
-<h3>Qu'est-ce que la filière CTO</h3>
-Le programme CTO et Tech Lead a pour objectif de former des profils hybrides, dotés d’une solide compréhension des enjeux techniques et capables d’évoluer dans des environnements complexes et évolutifs.
+<h3 id="cto">Qu'est-ce que la filière CTO ?</h3>
+Le programme <b id="cto">CTO et Tech Lead</b> a pour objectif de former des profils hybrides, dotés d’une solide compréhension 
+des enjeux techniques et capables d’évoluer dans des environnements complexes et évolutifs.<br></br>
 
-Outre les compétences techniques, la pédagogie mise en oeuvre vise à doter les étudiants d’aptitudes au pilotage de projets, au travail en équipe et à l’exercice d’une veille technologique permanente.
+Outre les compétences techniques, la pédagogie mise en oeuvre vise à doter les étudiants d’aptitudes au  
+<b id="cto"> pilotage de projets</b>, au travail en équipe et à l’exercice d’une <b id="cto">veille technologique</b> permanente.<br></br>
 
-Les postes ciblés se caractérisent par un degré de responsabilité élevé et exigent une autonomie importante dans la conduite de projets. Ils présentent une dimension stratégique forte, liée à l’importance cruciale du système d’information.
+Les postes ciblés se caractérisent par un degré de responsabilité élevé et exigent une <b id="cto">autonomie</b> importante 
+dans la conduite de projets. Ils présentent une <b id="cto">dimension stratégique forte</b>, liée à l’importance cruciale 
+du système d’information.
+<br></br><br></br>
+<h3 id="cto">Infos pratiques</h3>
+• <b id="cto">Durée : </b>24 mois <br></br>
 
+• <b id="cto">Niveau d’admission :</b> Bac +3 en développement web ou informatique<br></br>
+
+• <b id="cto">450 heures de formation par an</b><br></br>
+
+• <b id="cto">Formation en alternance :</b> 1 semaine école / 3 semaines entreprise<br></br>
+
+• <b id="cto">Début des cours :</b> Septembre / Octobre<br></br><br></br>
+
+Cycle validé par la certification professionnelle de niveau 7 « <b id="cto">Manager de projets innovants</b> », 
+code NSF 310m. Enregistrée au RNCP par arrêté du 07/04/2017 publié au J.O. du 21/04/2017 
+sous l’autorité et délivré par EIMP. Certification accessible via le dispositif VAE.
+<br></br><br></br>
+ <h3 id="cto">S'inscrire</h3>
+ Pour prendre contact avec nous, poser des questions, et pourquoi pas vous inscrire, n'hésitez pas à :<br></br>
+ • Nous appeler au <b id="cto">01.80.50.91.48</b> <br></br>
+ • Nous envoyer un mail à <a href="mailto:admission@eemi.com" target="_blank"><b id="cto">admission@eemi.com</b></a>
  </article>
       </main>
       <style jsx>{`
